@@ -1,0 +1,22 @@
+.mynav{
+	background-image: url('nav.jpg');
+	background-size: cover;
+	min-height: 700px;
+	max-height: 100%;
+	position: center;
+	background-position: center; 
+}
+.navbar{
+	background-color: transparent;
+}
+.navbar .nav-item a:hover{
+	color: #FFF !important;
+	background-color: rgba(0,0,0,0.5);
+}
+.navbar .dropdown-menu{
+	background-color: rgba(0,0,0,0.3);
+}
+.dropdown-item:hover{
+	background-color: green;
+
+}
