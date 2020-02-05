@@ -1,22 +1,36 @@
-.mynav{
+body{
 	background-image: url('nav.jpg');
 	background-size: cover;
 	min-height: 700px;
 	max-height: 100%;
 	position: center;
-	background-position: center; 
+	background-position: center;
+	color: #FFF !important;
+	 
 }
+.ritik{
+		-webkit-text-fill-color:white;
+		color: white;
+
+		/*flood-color: blue;*/
+}
+/*.ritik{*/
+	/**/
+	/*align-content: left;*/
+/*}*/
 .navbar{
 	background-color: transparent;
+	background-color: rgba(0,0,0,0.4);
 }
 .navbar .nav-item a:hover{
 	color: #FFF !important;
-	background-color: rgba(0,0,0,0.5);
+	
 }
 .navbar .dropdown-menu{
 	background-color: rgba(0,0,0,0.3);
 }
 .dropdown-item:hover{
 	background-color: green;
+
 
 }
